@@ -1,7 +1,7 @@
 body {
   background-color: powderblue;
 }
-div {
+div .box {
   width: 300px;
   border: 15px solid green;
   padding: 50px;
