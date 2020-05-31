@@ -24,7 +24,7 @@ p {
    background-color: red;
    position: relative;
    top:10px;
-  left:200px;
+  right: -20px;
     color: white;
 }
 .row{
