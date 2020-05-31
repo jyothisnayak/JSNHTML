@@ -45,7 +45,7 @@ p {
 .col-lg-3 {width: 33.33%;}
 }
 
-@media (min-width: 768px) and (max-width: 997px) {
+@media (min-width: 501px) and (max-width: 997px) {
   /* For tabs: */
   .col-md-1,.col-md-2{}
  
@@ -57,7 +57,7 @@ p {
    
  }
   
-@media (min-width: 767px) {
+@media (min-width: 500px) {
   .col-sd{width: 100%;}
 }
 
