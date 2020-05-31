@@ -34,7 +34,7 @@ p {
 	width: 100%;
 }
 
-@media  (min-width: 992px) {
+@media  (min-width: 1000px) {
   .col-lg-1,.col-lg-2,.col-lg-3{
 
    float:left;
@@ -45,7 +45,7 @@ p {
 .col-lg-3 {width: 33.33%;}
 }
 
-@media (min-width: 768px ) and max-width: 991px) {
+@media (min-width: 750px ) and max-width: 999px) {
   /* For tabs: */
   .col-md-1,.col-md-2,.col-md-3{}
 .col-md-1 {width: 25%;}
@@ -56,7 +56,7 @@ p {
   
 
 
-@media (min-width: 767px) {
+@media (min-width: 749px) {
   
 }
 
