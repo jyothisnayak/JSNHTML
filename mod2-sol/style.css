@@ -1,42 +1,54 @@
 body {
   background-color: powderblue;
 }
-@media only screen and (min-width: 992px) {
-  body {
-    background-color: green;
+* {box-sizing: border-box;
+	}
+h1{
+	margin-bottom: 15px;
+}
+p {
+  border: 1px solid black;
+  background-color: blue;
+  width: 90%
+  height: 150px;
+  margin-right: auto;
+  margin-left:  auto;
+  font-family: Helvetica;
+  color: white;
+}
+.row{
+	width: 100%;
+}
+
+@media  (min-width: 992px) {
+  .col-lg-1,.col-lg-2,.col-lg-3{
+
+   float:left;
+   border: 1px solid green;
+}
+.col-lg-1 {width: 33.33%;}
+.col-lg-2 {width: 66.66%;}
+.col-lg-3 {width: 100%;}
+}
+
+@media (min-width: 768px ) and max-width: 991px) {
+  /* For tabs: */
+  .col-md-1,.col-md-2,.col-md-3{}
+.col-md-1 {width: 25%;}
+.col-md-2 {width: 50%;}
+.col-md-3 {width: 100%;}
+
+  }
   
 
-.col-1 {width: 33.33%;}
-.col-2 {width: 33.33%;}
-.col-3 {width: 33.33%;}
-}
-}
-@media only screen and (min-width: 768px and max-width: 991px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-}
-[class*="col-"] {
-  width: 100%;
-}
 
-@media only screen and (min-width: 767px) {
-  [class*="col-"] {
-    width: 100%;
-  }
+@media (min-width: 767px) {
+  
 }
 
 
-#box {
-  width: 500px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
-}
+
 h1 {
   color: blue;
 }
-p {
-  color: red;
-}
+
