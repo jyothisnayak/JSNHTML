@@ -21,11 +21,9 @@ p {
 #p1 {
     text-align: right;
    background-color: red;
-   width: 40px;
-   height:20px;
    position: relative;
    top: 5px;
-   left: 50px;
+   left: 2px;
    color: white;
  }
 .row{
