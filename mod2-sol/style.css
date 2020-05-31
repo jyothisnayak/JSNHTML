@@ -57,7 +57,7 @@ p {
 
 
 @media (min-width: 749px) {
-  
+  .col{width: 100%;}
 }
 
 
