@@ -48,15 +48,15 @@ p {
 @media (min-width: 750px ) and (max-width: 999px) {
   /* For tabs: */
   .col-md-1,.col-md-2{}
-.col-md-1 {width: 50%;}
-.col-md-2 {width: 50%;}
+  .col-md-1 {width: 50%;}
+   .col-md-2 {width: 50%;}
 
-  }
+ }
   
 
 
 @media (min-width: 749px) {
-  .col{width: 100%;}
+  .col-sd{width: 100%;}
 }
 
 
