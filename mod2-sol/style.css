@@ -26,9 +26,9 @@ p {
    height:20px;
    position: relative;
    top: 10px;
-    left: 80px;
-    color: white;
-    border: 1px solid blue;
+   left: 80px;
+   color: white;
+   border: 1px solid blue;
 }
 .row{
 	width: 100%;
